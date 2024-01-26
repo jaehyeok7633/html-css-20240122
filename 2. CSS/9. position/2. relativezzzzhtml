@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .box{
+      width: 200px;
+      height: 100px;
+      border: 4px dashed;
+    }
+    .box p{
+      width: 10px;
+      border: 2px dashed;
+    }
+
+    
+
+    
+
+  </style>
+
+
+</head>
+  
+  <div class="box">1</div>
+  <div>
+    <p>asdasd</p>
+  </div>
+  <div class="box">aa</div>
+  <div class="box">124</div>
+
+
+<body>
+  
+
+
+
+
+</body>
+</html>

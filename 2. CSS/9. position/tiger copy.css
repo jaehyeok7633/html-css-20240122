@@ -1,0 +1,96 @@
+@import url(../../common.css);
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+
+   background-color: grey;
+   margin: 200px;
+  
+}
+
+header{
+  width: 100%;
+  background-color: rgb(22, 22, 99);
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 50px;
+}
+
+header h1{
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 100px;
+  color: yellow;
+}
+
+header strong{
+  font-size: 150px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.menu{
+  width: 20%;
+  height: 100%;
+  float: left;
+  background-color: lightgray;
+  
+}
+.container{
+  height: 1000px;
+}
+
+.content{
+  height: 100%;
+  float: left;
+  width: 80%;
+  background: white;
+}
+
+.menu li{
+  
+  font-size: 20px;
+  margin: 50px;
+}
+header span{
+  font-size: 70px;
+}
+em{
+  font-size: 90px;
+  opacity: 0.5;
+  color: white;
+}
+
+.content h2{
+  background-color: red;
+  color: yellow;
+  font-size: 40px;
+  padding: 15px;
+  padding-left: 100px;
+}
+  .content p{
+    font-size: 30px;
+    padding: 60px;
+    
+  }
+  .menu li a:hover{
+    text-decoration: underline;
+  }
+
+
+footer{
+  background-color: darkgray;
+  padding: 30px;
+  padding-left: 20px;
+}
+
+footer address{
+    font-size: 20px;
+  }
+

@@ -1,0 +1,151 @@
+@import url("../../common.css");
+
+/* body style */
+body{
+  background: gray;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+#wrapper{
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* header style */
+header{
+  background: orange;
+
+}
+
+header h1{
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+header h1 span{
+  font-size: 20px;
+  text-align: center;
+  display: block;
+ 
+}
+
+header .stit{
+  background: yellow;
+  font-size: 15px;
+  text-align: center;
+}
+
+/*end header */
+
+
+.side-menu{
+  
+  float: left;
+  width: 20%;
+  
+}
+.side-menu h3{
+  padding: 10px;
+  color: white;
+  background-color: red;
+  font-size: 15px;
+}
+.container .side-menu ul li{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.container{
+  background-color: white;
+}
+
+.banner{
+  float: left;
+  width:20%; 
+  padding: 10px;
+  
+}
+.main-content{
+  float: left;
+  width:60%;
+  background-color: lightgray;
+}
+
+.art-piece .title {
+  background: rgb(97, 97, 184); 
+   margin: 10px;
+}
+.art-piece .title a{
+  font-weight: bold;
+  color: white;
+  
+}
+.art-piece .artist{
+  font-weight: bold;
+  color: rgb(75, 75, 150);
+  margin-left: 10px;
+}
+
+.art-piece .detail{
+  font-size: 10px;
+  margin-left: 10px;
+  padding: 5px;
+}
+.banner .all{
+  text-decoration: underline;
+  display: block;
+  color: gray;
+  font-weight: bold;
+}
+.banner .love{
+  display: block;
+  text-decoration: underline;
+  color: orange;
+  font-weight: bold;
+}
+
+.banner strong{
+  display: block;
+  font-weight: bold;
+}
+
+.banner .link a{
+  text-decoration: underline;
+  font-size: 15px;
+  font-weight: bold;
+  display: block;
+
+}
+
+.banner .link span{
+  font-size: 12px;
+  display: block;
+
+  
+  
+}
+.banner .link{
+  padding: 10px;
+}
+  
+
+
+footer {
+  background: rgb(55, 55, 182);
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+footer address a:hover{
+  border-bottom: 1px solid white;
+}
+footer address a{
+  text-decoration: underline;
+}
